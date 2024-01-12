@@ -3,11 +3,14 @@
     padding: 0;
 }
 
+/* header */
+
 header {
     background-color: rgb(205, 143, 57);
+    height: 40px;
 }
 
-nav {
+.topics {
     background-color: aqua;
 }
 
@@ -18,4 +21,24 @@ ul {
 
 li {
     padding-right: 10px;
+}
+
+/* main */
+
+main {
+    display: inline-block;
+    width: 80%;
+}
+
+.sinopse
+
+.most-popular-description {
+    width: 50px;
+    text-align: justify;
+}
+
+/* aside */
+
+.lateral {
+    
 }
