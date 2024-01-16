@@ -3,15 +3,31 @@
     padding: 0;
 }
 
+* a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Greek;
+    src: url(../assets/fonts/Greek.ttf);
+}
+
 /* header */
 
 header {
     background-color: rgb(205, 143, 57);
-    height: 40px;
+    height: 60px;
+    display: flex;
 }
 
 .topics {
     background-color: aqua;
+    height: 40px;
+}
+
+.logo-font {
+    font-family: 'Greek';
+    font-size: xx-large
 }
 
 ul {
@@ -38,7 +54,3 @@ main {
 }
 
 /* aside */
-
-.lateral {
-    
-}
