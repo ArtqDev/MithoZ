@@ -3,54 +3,29 @@
     padding: 0;
 }
 
-* a {
+* a{
     text-decoration: none;
+    font-size: larger;
 }
-
-@font-face {
-    font-family: Greek;
-    src: url(../assets/fonts/Greek.ttf);
-}
-
-/* header */
 
 header {
-    background-color: rgb(205, 143, 57);
+    background-color: aquamarine;
     height: 60px;
-    display: flex;
 }
 
-.topics {
+header > img {
+    padding-left: 15px;
+    float: left;
+}
+
+.nav-principal{
     background-color: aqua;
-    height: 40px;
+    align-content: center;
 }
 
-.logo-font {
-    font-family: 'Greek';
-    font-size: xx-large
+nav > ul > li{
+    list-style: none;
+    display: inline;
+    padding-right: 5px;
+    padding-left: 185px;
 }
-
-ul {
-    display: flex;
-    list-style-type: none;
-}
-
-li {
-    padding-right: 10px;
-}
-
-/* main */
-
-main {
-    display: inline-block;
-    width: 80%;
-}
-
-.sinopse
-
-.most-popular-description {
-    width: 50px;
-    text-align: justify;
-}
-
-/* aside */
