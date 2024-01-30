@@ -1,31 +1,117 @@
-* { /* configurações globais*/
+/*configurações globais*/
+*{ 
     margin: 0;
     padding: 0;
 }
 
 * a{
     text-decoration: none;
-    font-size: larger;
+    color: white;
 }
 
-header {
-    background-color: aquamarine;
+
+/*configurações globais*/
+
+/*header*/
+header{
+    background-color: #8C5D42;
     height: 60px;
 }
 
-header > img {
-    padding-left: 15px;
+header > p{
+    padding-left: 40px;
+    padding-top: 6px;
     float: left;
+    font-family:'Koh Santepheap';
+    font-weight: 400;
+    font-size: 40px;
+    color: #F2DABD;
 }
 
 .nav-principal{
-    background-color: aqua;
+    background-color: #6C6565;
     align-content: center;
+    height: 30px;
+    padding-top: 8px;
 }
 
 nav > ul > li{
+    font-family:'Koh Santepheap';
     list-style: none;
     display: inline;
     padding-right: 5px;
     padding-left: 185px;
 }
+
+nav > ul > li > a{
+    color: white;
+}
+/*header*/
+
+/*aside*/
+.aside-group{
+    display: block;
+    float: left;
+    width: 15%;
+}
+aside{
+    padding-top: 20px;
+    height: 400px;
+    background-color: rgb(149, 149, 149);
+}
+
+.main-title-aside{
+    color: white;
+    font-size: large;
+    display: block;
+    text-align: center;
+    font-family: 'Koh Santepheap';
+}
+
+.aside-item{
+    color: white;
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+/*aside*/
+
+/*main*/
+.main-group{
+    display: block;
+    float: left;
+    width: 85%;
+    height: 400px;
+}
+
+main{
+    background-color: aliceblue;
+    width: 90%;
+}
+
+h1{
+text-align: center;
+}
+
+.title-apresentation{
+    padding: 50px;
+}
+
+.paragraph-apresentation{
+    text-align: left;
+    width: 90%;
+    padding: 10px 40px 20px 20px;
+}
+
+.image-apresentation{
+    
+}
+
+/*.ads{
+    float: right;
+    width: 10%;
+    height: 500px;
+}
+*/
+    
+/*main*/
