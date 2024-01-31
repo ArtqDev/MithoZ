@@ -14,11 +14,12 @@
 
 /*header*/
 header{
-    background-color: #8C5D42;
+    background-image: url(../img/fundo-header.jpg);
+    mask-repeat: no-repeat;
     height: 60px;
 }
 
-header > p{
+.logo-link{
     padding-left: 40px;
     padding-top: 6px;
     float: left;
@@ -46,6 +47,10 @@ nav > ul > li{
 nav > ul > li > a{
     color: white;
 }
+
+.logo-link{
+    
+}
 /*header*/
 
 /*aside*/
@@ -62,7 +67,8 @@ aside{
 
 .main-title-aside{
     color: white;
-    font-size: large;
+    font-size: larger;
+    font-weight: 400;
     display: block;
     text-align: center;
     font-family: 'Koh Santepheap';
