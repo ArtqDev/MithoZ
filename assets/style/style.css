@@ -14,8 +14,7 @@
 
 /*header*/
 header{
-    background-image: url(../img/fundo-header.jpg);
-    mask-repeat: no-repeat;
+    background-image: url(../img/1.jpg);
     height: 60px;
 }
 
@@ -87,11 +86,11 @@ aside{
     display: block;
     float: left;
     width: 85%;
-    height: 400px;
+    height: 500px;
 }
 
 main{
-    background-color: aliceblue;
+    background-color: whitesmoke;
     width: 90%;
 }
 
@@ -110,7 +109,20 @@ text-align: center;
 }
 
 .image-apresentation{
-    
+    width: 48%;
+}
+.image-apresentation-2{
+    float: right;
+    width: 48%;
+}
+
+/*footer*/
+
+.footer-group{
+    display: block;
+    height: 100px;
+    background-color: aqua;
+    align-items: end;
 }
 
 /*.ads{
@@ -120,4 +132,6 @@ text-align: center;
 }
 */
     
-/*main*/
+
+
+
