@@ -1,3 +1,9 @@
+/*GENERAL*/
+@font-face {
+  font-family: "greek";
+  src: url(../src/fonts/greek-titles.ttf) format('truetype');
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -10,18 +16,18 @@
 }
 
 :root{
-
+  --white: 
 }
 
 body{
   background-color: rgb(255, 252, 240);
 }
+/*GENERAL*/
 
 
 /*HEADER*/
 header{
   display: grid;
-  
 }
 
 .logo{
@@ -38,6 +44,16 @@ nav{
   background-color: rgba(238, 236, 229, 0.514);
   display: flex;
   justify-content: space-around;
+  padding: 1%;
+}
+
+a{
+  font-family: "greek";
+}
+
+nav > a:hover{
+  color: #705850;
+  font-weight: bold;
 }
 /*HEADER*/
 
@@ -58,20 +74,21 @@ aside{
 
 aside a{
   margin: 0 0 1% 2%;
-  padding: 1px;
+  padding: 5px;
   background-color: rgb(255, 252, 240);
   width: fit-content;
 }
 
 .content{
   width: 80%;
-  background-color: rgb(255, 252, 240);
+  background-color: rgb(123, 103, 25);
   margin: 0 10% 0 10%; 
 }
 .open-tittle{
   font-size: xx-large;
   text-align: center;
   margin-top: 20px;
+  font-family: "greek";
 }
 
 .open-paragraph{
@@ -81,19 +98,18 @@ aside a{
 
 /*FOOTER*/
 footer{
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  background-color: #705850;
 }
 
-.collum{
-  padding: 20px;
+.footer-icon{
+  font-size: 30px;
 }
 
-.contacts{
-  
-}
-
-.social{
-
+i:hover.footer-icon{
+  color: white;
 }
 /*FOOTER*/
